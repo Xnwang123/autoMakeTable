@@ -18,7 +18,7 @@ st.title("(*^‧^*)网站使用说明")
 st.divider()
 st.subheader("( •̅_•̅ )界面一：学生助理自动排班系统")
 st.write("( •̅_•̅ )为了方便数据处理，导入文件内容格式尽量保持如下形式:")
-st.image("py_auto_table\images\showWorker.png")
+st.image("py_auto_table/images/showWorker.png")
 st.divider()
 note1,note2,note3 = st.tabs(["注意点一","注意点二","注意点三"])
 with note1:
@@ -30,13 +30,13 @@ with note3:
 
 st.subheader("( •̅_•̅ )界面二：企业对接系统")
 st.write("( •̅_•̅ )为了方便数据处理，导入文件内容格式尽量保持如下形式:")
-st.image("py_auto_table\images\showEnterprise.png")
+st.image("py_auto_table/images/showEnterprise.png")
 st.divider()
 E_note1,E_note2,E_note3 = st.tabs(["注意点一","注意点二","注意点三"])
 with E_note1:
     st.write("( •̅_•̅ )可以直接使用企业源数据表，具体样式，问老助理！")
 with E_note2:
-    st.image("py_auto_table\images\webWorker.png")
+    st.image("py_auto_table/images/webWorker.png")
     st.write("( •̅_•̅ )值班助理表格直接使用此网站页面一，下载的样式即可，具体样式如上图")
 with E_note3:
     st.write("🎈遇到问题根据后面联系方式进行反馈,网站也会不断更新！")
